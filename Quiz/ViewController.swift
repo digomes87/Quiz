@@ -36,29 +36,34 @@ class ViewController: UIViewController {
         let q0answers2 = Answer(answer: "I don't have idea !", isCorrect: false)
         let question0 = Question(question: "Waves Gravity", strImageFileName: "WaveGravitantion", ansWers: [q0answers0,q0answers1,q0answers2])
         
-        let q1answers0 = Answer(answer: "120 anos ", isCorrect: true)
-        let q1answers1 = Answer(answer: "80 anos ", isCorrect: false)
-        let q1answers2 = Answer(answer: "50 anos ", isCorrect: false)
-        let question1 = Question(question: "How yeras live a elephant ?", strImageFileName: "elefante", ansWers: [q1answers0,q1answers1,q1answers2])
+        let q1answers0 = Answer(answer: "Nikola Tesla ", isCorrect: true)
+        let q1answers1 = Answer(answer: "Isaac Newton ", isCorrect: false)
+        let q1answers2 = Answer(answer: "SomeOne ", isCorrect: false)
+        let question1 = Question(question: "who discovery electricity? ", strImageFileName: "electricity", ansWers: [q1answers0,q1answers1,q1answers2])
         
-        let q2answers0 = Answer(answer: "5,5 m ", isCorrect: true)
-        let q2answers1 = Answer(answer: "4,5 m", isCorrect: false)
-        let q2answers2 = Answer(answer: "3,0 m", isCorrect: false)
-        let question2 = Question(question: "How many meters have a giraffe", strImageFileName: "girafa", ansWers: [q2answers0,q2answers1,q2answers2])
+        let q2answers0 = Answer(answer: "Germany ", isCorrect: true)
+        let q2answers1 = Answer(answer: "EUA ", isCorrect: false)
+        let q2answers2 = Answer(answer: "Greci", isCorrect: false)
+        let question2 = Question(question: "Inglish is a language of origem ?", strImageFileName: "inglesh", ansWers: [q2answers0,q2answers1,q2answers2])
         
-        let q3answers0 = Answer(answer: "2300 kg", isCorrect: true)
-        let q3answers1 = Answer(answer: "2000 kg", isCorrect: false)
-        let q3answers2 = Answer(answer: "1800 kg", isCorrect: false)
-        let question3 = Question(question: "How many kilos weighs a rhino", strImageFileName: "rinoceronte", ansWers: [q3answers0,q3answers1,q3answers2])
+        let q3answers0 = Answer(answer: "Rosetta", isCorrect: true)
+        let q3answers1 = Answer(answer: "Mage", isCorrect: false)
+        let q3answers2 = Answer(answer: "Robertha", isCorrect: false)
+        let question3 = Question(question: "How name of Sonda that landed on a comet ?", strImageFileName: "cometa", ansWers: [q3answers0,q3answers1,q3answers2])
         
-        let q4answers0 = Answer(answer: "64 km/h", isCorrect: true)
-        let q4answers1 = Answer(answer: "60 km/h", isCorrect: false)
-        let q4answers2 = Answer(answer: "55 km/h", isCorrect: false)
-        let question4  = Question(question: "How can be fast Zebra", strImageFileName: "zebra", ansWers: [q4answers0,q4answers1,q4answers2])
+        let q4answers0 = Answer(answer: "Goku", isCorrect: true)
+        let q4answers1 = Answer(answer: "Hulk", isCorrect: false)
+        let q4answers2 = Answer(answer: "superman", isCorrect: false)
+        let question4  = Question(question: "Who is more Strong ?", strImageFileName: "strong", ansWers: [q4answers0,q4answers1,q4answers2])
+        
+        let q5answers0 = Answer(answer: "Pietro", isCorrect: true)
+        let q5answers1 = Answer(answer: "Flash", isCorrect: false)
+        let q5answers2 = Answer(answer: "Usain Bolt", isCorrect: false)
+        let question5 = Question(question: "Who is more Fast ?", strImageFileName: "fast", ansWers: [q5answers0,q5answers1,q5answers2])
         
         
         
-        questions = [question0,question1,question2,question3,question4]
+        questions = [question0,question1,question2,question3,question4,question5]
         
         startQuiz() // started quiz
     }
