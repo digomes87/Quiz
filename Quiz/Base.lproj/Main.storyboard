@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Quiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uHl-9L-EY2" userLabel="ViewBackGround">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ondas Gravitacionais ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2i-Dt-sqT">
+                                        <rect key="frame" x="21" y="47" width="281" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WaveGravitantion" translatesAutoresizingMaskIntoConstraints="NO" id="psC-7u-Sfo">
+                                        <rect key="frame" x="41" y="97" width="240" height="135"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEB-WX-z0m">
+                                        <rect key="frame" x="41" y="258" width="240" height="58"/>
+                                        <color key="backgroundColor" red="0.54598474950341847" green="0.61427489695502724" blue="0.75330528846153844" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <state key="normal" title="Einstein">
+                                            <color key="titleColor" red="0.75330528846153844" green="0.17375957151932492" blue="0.24050665658086481" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="awser1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8dU-Kv-PUn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eji-Ze-4I4">
+                                        <rect key="frame" x="40" y="359" width="240" height="58"/>
+                                        <color key="backgroundColor" red="0.54598474949999998" green="0.61427489700000004" blue="0.7533052885" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <state key="normal" title="Eu ou vc">
+                                            <color key="titleColor" red="0.7533052885" green="0.17375957149999999" blue="0.24050665660000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="aswer2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qnc-fP-8B6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W3k-HG-Fbt">
+                                        <rect key="frame" x="40" y="463" width="240" height="58"/>
+                                        <color key="backgroundColor" red="0.54598474949999998" green="0.61427489700000004" blue="0.7533052885" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <state key="normal" title="Internet">
+                                            <color key="titleColor" red="0.7533052885" green="0.17375957149999999" blue="0.24050665660000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="aswer3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2xh-Zz-WVp"/>
+                                        </connections>
+                                    </button>
+                                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D5y-fF-S9p" userLabel="ViewFeedBack">
+                                        <rect key="frame" x="40" y="97" width="240" height="135"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FeedBack" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KLI-ma-ejx">
+                                                <rect key="frame" x="13" y="8" width="219" height="61"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHR-Dj-l75">
+                                                <rect key="frame" x="0.0" y="69" width="240" height="58"/>
+                                                <color key="backgroundColor" red="0.64414914775931387" green="0.7533052885" blue="0.26981507999197923" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                <state key="normal" title="BTfeedBack">
+                                                    <color key="titleColor" red="0.20414254586642758" green="0.92308162223839174" blue="0.935917467948718" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="aswerFeedBackBT:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qOR-bD-C1u"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.93107275611934126" blue="0.58654512993405694" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.56321242886281597" green="0.75330528846153844" blue="0.54853239826545808" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="btFeedBack" destination="qHR-Dj-l75" id="dKV-cO-KUg"/>
+                        <outlet property="btFirst" destination="qEB-WX-z0m" id="fMi-RF-Gg2"/>
+                        <outlet property="btSecond" destination="eji-Ze-4I4" id="Yo9-DV-8qK"/>
+                        <outlet property="btTheird" destination="W3k-HG-Fbt" id="P8Z-jN-gso"/>
+                        <outlet property="image" destination="psC-7u-Sfo" id="b26-41-Ipu"/>
+                        <outlet property="imageFeedBack" destination="D5y-fF-S9p" id="Wdv-Gv-Gbx"/>
+                        <outlet property="lbFeedBack" destination="KLI-ma-ejx" id="bze-MM-NnY"/>
+                        <outlet property="lbTitulo" destination="D2i-Dt-sqT" id="Cac-cm-UdK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="439" y="389"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="WaveGravitantion" width="299" height="168"/>
+    </resources>
+</document>
